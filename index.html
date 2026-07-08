@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Folivora Sightings Map</title>
+    <title>Common Sloth Sightings Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
       :root {
@@ -55,8 +55,8 @@
   <body>
     <div class="page">
       <section class="banner">
-        <h1>Folivora Sightings World Map</h1>
-        <p>Click the pink pins to view recorded sightings, dates, times, and photos.</p>
+        <h1>Common Sloth Sightings World Map</h1>
+        <p>Click the pink pins to view recorded common sloth sightings, dates, times, and photos.</p>
       </section>
       <div id="map"></div>
     </div>
@@ -71,7 +71,7 @@
           date: '2026-06-14',
           time: '06:40',
           image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=80',
-          description: 'A juvenile Folivora spotted resting high in the canopy.'
+          description: 'A juvenile common sloth spotted resting high in the canopy.'
         },
         {
           name: 'Costa Rica Cloud Forest',
@@ -80,7 +80,7 @@
           date: '2026-05-22',
           time: '08:10',
           image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80',
-          description: 'A Folivora observed moving slowly through misty forest branches.'
+          description: 'A common sloth observed moving slowly through misty forest branches.'
         },
         {
           name: 'Madagascar Rainforest',
@@ -89,7 +89,7 @@
           date: '2026-04-08',
           time: '17:20',
           image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80',
-          description: 'A Folivora sighting recorded near a protected conservation trail.'
+          description: 'A common sloth sighting recorded near a protected conservation trail.'
         },
         {
           name: 'Borneo, Malaysia',
@@ -98,7 +98,7 @@
           date: '2026-03-17',
           time: '05:55',
           image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80',
-          description: 'A Folivora photographed in dense tropical vegetation.'
+          description: 'A common sloth photographed in dense tropical vegetation.'
         }
       ];
 
@@ -124,7 +124,7 @@
             <p><strong>Date:</strong> ${spot.date}</p>
             <p><strong>Time:</strong> ${spot.time}</p>
             <p>${spot.description}</p>
-            <img src="${spot.image}" alt="Folivora sighting at ${spot.name}" />
+            <img src="${spot.image}" alt="Common sloth sighting at ${spot.name}" />
           </div>
         `);
       });
